@@ -24,9 +24,6 @@ export const ContactForm = ({ onSubmit }) => {
       ...prev,
       [name]: value,
     }));
-    // console.log(event.target)
-    // console.log(event.target.name)
-    // console.log(event.target.value)
   };
 
   const handleSubmit = (event) => {
